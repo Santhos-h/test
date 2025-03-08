@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    height: 5vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav .line {
+    height: 100%;
+    border: 1px solid;
+}
+
+header {
+    height: 15vh;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul li {
+    height: 100%;
+    width: 12%;
+    align-content: center;
+    list-style: none;
+}
+
+header ul li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+header button {
+    height: 10vh;
+    width: 20%;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: snow;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+main {
+    height: 114vh;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-left {
+    height: 100%;
+    width: 50%;
+    align-content: center;
+    padding: 5%;
+}
+
+main .main-left h1{
+    font-size: 4rem;
+}
+
+main .main-right {
+    height: 100%;
+    width: 50%;
+    background-color: #F1F8FF;
+}
+
+.main-right .cart {
+    height: 20%;
+    width: 20%;
+    background-color: snow;
+    position: absolute;
+    top: 50%;
+    right: 26%;
+    padding: 10px;
+
+}
+
+.main-right .cart .img-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .main-right .carts {
+    height: 20%;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -30%;
+    left: 5%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-right .carts li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right .carts li span {
+    color: black;
+}
+
+.main-right .carts input {
+    outline: none;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-right .carts input::placeholder {
+    color: gray;
+}
+
+.main-right .carts button {
+    height: 30%;
+    width: 20%;
+    color: snow;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+section {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section li img {
+    background-color: #F1F8FF;
+}
+
+section li {
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    align-content: center;
+}
+
+section li p {
+    color: gray;
+}
+
+aside {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside .aside-left {
+    height: 100%;
+    width: 50%;
+}
+
+aside .aside-right {
+    height: 100%;
+    width: 50%;
+    align-content: center;
+}
+
+aside .aside-right button {
+    height: 8%;
+    width: 30%;
+    border: 1px solid blue;
+    outline: none;
+    color: blue;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+aside .aside-right h1 {
+    font-size: 3.5rem;
+}
+
+aside .aside-right p {
+    color: gray;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+aside .aside-right ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+}
+
+aside .aside-right ul li {
+    list-style: none;
+    height: 20%;
+    width: 50%;
+    font-size: 20px;
+}
+
+aside .aside-right ul li img {
+    margin-bottom: -4px;
+}
+
+aside .aside-right .butt button {
+    height: 60px;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .left-side {
+    height: 100%;
+    width: 40%;
+    padding-left: 5%;
+    align-content: center;
+}
+
+.container .left-side button {
+    height: 10%;
+    width: 30%;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.container .left-side h1 {
+    font-size:3rem;
+}
+
+.container .left-side p {
+    color: gray;
+}
+
+.container .left-side .progress {
+    height: 1%;
+    width: 90%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background: linear-gradient(to right, blue 95%,white 5%);
+}
+
+.container .left-side .progress1 {
+    height: 1%;
+    width: 90%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background:linear-gradient(to right, blue 87%, white 13%) ;
+}
+
+.container .left-side span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .right-side {
+    height: 100%;
+}
+
+.container .right-side .box {
+    height: 55%;
+    width: 25%;
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 310%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px ;
+}
+
+.container .right-side .box p {
+    color: gray;
+} 
+
+.container .right-side .box ul {
+    height: 30%;
+    width: 100%;
+}
+
+.container .right-side .box ul li {
+    list-style: none;
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.container .right-side .box ul li span {
+    margin-left: 60px;
+}
+
+.container .right-side .box button {
+    height: 15%;
+    width: 95%;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+@media all and (max-width: 576px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    nav {
+        height: 2vh;
+        width: 100vw;
+        font-size: 5px;
+    }
+
+    header {
+        height: 15vh;
+        width: 100vw;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header button {
+        height: 30%;
+        font-size: 6px;
+    }
+
+    main {
+        height: 130vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .main-left {
+        height: 50%;
+        width: 100%;
+    }
+
+    main .main-right {
+        height: 50%;
+        width: 100%;
+    }
+
+    main .main-left span {
+        font-size: 20px;
+    }
+
+    main .main-left h1 {
+        font-size: 2rem;
+    }
+
+    main .main-left p {
+        font-size: 1rem;
+    }
+
+    main .main-right .cart{
+        position: absolute;
+        top: 100%;
+        left: 5%;
+        height: 25%;
+        width: 50%;
+    }
+
+    main .main-right .cart img, main .main-right .cart .img-icon {
+        width: 50%;
+    }
+
+    main .main-right .carts {
+        width: 100%;
+        position: absolute;
+        top: 130%;
+        height: 10%;
+    }
+
+    main .main-right .carts li {
+        width: 30%;
+    }
+
+    main .main-right .carts li span {
+        font-size: 8px;
+    }
+
+    main .main-right .carts li span img {
+        width: 15%;
+    }
+
+    main .main-right .carts li input::placeholder {
+        font-size: 10px;
+    }
+
+    main .main-right .carts li input {
+        width: 80%;
+        height: 5px;
+    }
+
+    section li img {
+        width: 30%;
+    }
+
+    section li h3 {
+        font-size: 1rem;
+    }
+
+    section li p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+}
